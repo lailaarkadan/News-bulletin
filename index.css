@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+.head-title {
+  font-size: 3rem;
+  text-align: center;
+  font-family: fantasy;
+  color: olivedrab;
+  margin: 1%;
+}
+.section-title {
+  font-family: Helvetica;
+  font-weight: lighter;
+  text-align: center;
+}
+.left-box,
+.right-box {
+  width: 25%;
+}
+.mid-box {
+  align-items: stretch;
+  width: 50%;
+}
+
+.bottom-right-box {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.nav-link {
+  display: flex;
+  height: 20%;
+}
+
+.article {
+  text-align: center;
+  margin: 0.5% 0 0.5% 0;
+}
+.title {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.big-box {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px double black;
+}
+.color-1 {
+  background-color: blueviolet;
+}
+.color-2 {
+  background-color: rebeccapurple;
+}
+.color-3 {
+  background-color: peru;
+}
+.color-4 {
+  background-color: brown;
+}
+.color-5 {
+  background-color: darkolivegreen;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1.01%;
+}
+/* testing push */
